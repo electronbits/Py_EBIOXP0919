@@ -108,16 +108,3 @@ class EBIOXP0919:
             raise ValueError(Colors.colored_text("Invalid digital input number.", 'FAIL'))
 
 
-# Example usage:
-if __name__ == "__main__":
-    board = EBIOXP0919(chip_address=0x3f)
-
-    # Example to toggle relay 1 ON
-    board.toggle_relay(1, RelayState.ON)
-
-    # Example to read digital input 2
-    input_state = board.get_input_state(2)
-    print(f"Digital Input 2 State: {input_state}")
-
-    # Cleanup when done
-    board.cleanup()
