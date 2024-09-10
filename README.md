@@ -98,7 +98,7 @@ from EBIOXP0919_intf import ebioxp0919
 board = ebioxp0919.EBIOXP0919(chip_address=0x3f)
 
 # Example to toggle relay 1 ON
-board.toggle_relay(1, RelayState.ON)
+board.toggle_relay(1, ebioxp0919.RelayState.ON)
 
 # Example to read digital input 2
 input_state = board.get_input_state(2)
