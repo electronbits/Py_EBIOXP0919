@@ -91,7 +91,7 @@ pip install EBIOXP0919
 ```
 # Usage
 ## Importing the Package
-from EBRPIH1118_intf import ebrpih1118
+from EBIOXP0919_intf import ebioxp0919
 
 # Example usage
 ```python
