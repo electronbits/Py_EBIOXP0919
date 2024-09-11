@@ -1,5 +1,7 @@
 # EBIOXP0919
 
+![EBIOXP0919](https://raw.githubusercontent.com/electronbits/Py_EBIOXP0919/main/io_4i4o_2.jpg)
+
 This is a Python package to interface with the EBIOXP0910-4I4O board, it is designed to be easily integrated with [EBRPIH1118](https://www.electronbits.com/product/raspberry-pi-base/) and RaspberryPi.
 
 ## Features
