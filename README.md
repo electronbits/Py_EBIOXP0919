@@ -1,6 +1,6 @@
 # EBIOXP0919
 
-This is a Python package to interface with the EBIOXP0910-4I4O board via Raspberry Pi.
+This is a Python package to interface with the EBIOXP0910-4I4O board, it is designed to be easily integrated with [EBRPIH1118](https://www.electronbits.com/product/raspberry-pi-base/) and RaspberryPi.
 
 ## Features
 
